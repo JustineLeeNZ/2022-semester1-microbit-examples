@@ -15,3 +15,11 @@ boat = Image("05050:"
 
 #display DIY image
 display.show(boat)
+
+# show animation using in-built images
+# create list of images
+
+
+# display images as animation
+
+
