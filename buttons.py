@@ -11,7 +11,7 @@ while True:
 
     # if button b pressed, show sad face
     if button_a.is_pressed():
-        display.show(Image.HAPPY)
+        display.show(Image.SAD)
 
 
 
