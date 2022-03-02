@@ -36,6 +36,17 @@ while True:
         display.show(Image.ARROW_S)
         radio.send('down')
 
+    # listen for message and display appropriate arrow image
+    message = radio.receive()
+    if message == 'left':
+        display.show(Image.ARROW_W)
+    if message == 'right':
+        display.show(Image.ARROW_E)
+    if message == 'up':
+        display.show(Image.ARROW_N)
+    if message == 'down':
+        display.show(Image.ARROW_S)
+
 
 
 
